@@ -1,0 +1,33 @@
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  

@@ -1,0 +1,69 @@
+.title {
+  font-weight: 800;
+  color: transparent;
+  font-size: 20em;
+  line-height: .8em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.title-container {
+  z-index: 2;
+  padding-top: 4em;
+  background: rgb(38, 42, 63);
+}
+
+.Background {
+  width: 100%;
+  height: 60.5em;
+  background: rgb(38, 42, 63);
+  position: relative; /* Hiermee kunnen we de text-container positioneren */
+}
+
+.text-container {
+  text-align: left; /* Alles links uitlijnen */
+  position: relative; /* Behoud de relatieve positionering */
+  transform: rotate(-25deg) translate(0, 0); /* Draai de tekst met -25 graden en verplaats niet */
+  bottom: 40em;
+  left: 0em;
+}
+
+.background-text {
+  font-weight: 800;
+  color: transparent;
+  font-size: 30em;
+  line-height: .8em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+  margin-right: -80px; /* Verminder de afstand tussen de teksten */
+}
+
+.image1 {
+  position: absolute;
+  right: 2%;
+  /* background-image: url('/1200px-Dracovish.png'); */
+  z-index: 1;
+  width: 70em;
+  height: 70em;
+  overflow: hidden;
+}
+
+
+
+  
+
+/* 
+.image-2 {
+    background-image: url('/0.png');
+    z-index: -1;
+}
+
+.image-3 {
+    background-image: url('/3.png');
+    z-index: -4;
+}
+
+.image-4 {
+    background-image: url('/4.png');
+    z-index: -3;
+}  */

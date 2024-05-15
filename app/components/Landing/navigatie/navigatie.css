@@ -1,0 +1,53 @@
+/* Navigatie algemeen */
+/* ------ */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: white;
+}
+
+
+
+/* Rechter Links */
+/* ------ */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 2em;
+}
+
+
+
+/* Logo */
+/* ------ */
+.words .word-autist,
+.words .word-fronteder,
+.words .word-grafischvormgever,
+.words .word-webdesigner {
+    transition: color 0.3s ease-in-out; /* Voeg een overgang toe voor de kleurverandering */
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.words .word-autist {
+    color: red;
+}
+
+.words .word-fronteder {
+    color: blue;
+}
+
+.words .word-grafischvormgever {
+    color: green;
+}
+
+.words .word-webdesigner {
+    color: cyan;
+}

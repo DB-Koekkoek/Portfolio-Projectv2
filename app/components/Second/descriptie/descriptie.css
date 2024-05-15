@@ -1,0 +1,19 @@
+.descriptie-tekst {
+    padding-top: 12em;
+    max-width: 200ch;
+    display: flex;
+}
+
+.tekst {
+    padding: 1em;
+}
+
+.descriptie-tekst h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.descriptie-tekst p {
+    color: white;
+    font-size: 1.3em;
+}

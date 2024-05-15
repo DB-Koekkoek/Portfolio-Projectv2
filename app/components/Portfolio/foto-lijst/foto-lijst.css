@@ -1,0 +1,24 @@
+.portfolio-lijst-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .portfolio-lijst {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-lijst li {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-lijst img {
+    width: 100%;
+    height: auto;
+  }
+  
